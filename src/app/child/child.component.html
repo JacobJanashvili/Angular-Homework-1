@@ -1,0 +1,11 @@
+<div *ngIf="studentStatus.isStudent == true">
+  <div class="wrapper">
+    <p>Student adress:</p>
+    <div class="content">
+      <p>{{ studentStatus.address.street }}</p>
+      <p>{{ studentStatus.address.suite }}</p>
+      <p>{{ studentStatus.address.city }}</p>
+      <p>{{ studentStatus.address.zipcode }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.wrapper p{
+    margin-left: 15px;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+}
+
+.content p{
+    margin: 5px 0;
+}
